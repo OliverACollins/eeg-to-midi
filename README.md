@@ -38,4 +38,7 @@ My aim is to create two functional bridge scripts for both (1) live EEG-to-MIDI 
 
 
 ## Usage: Pre-recorded EEG-to-MIDI
-
+### Specifying .csv file
+```python
+CSV_FILE = "cleaned_eeg.csv"
+```
