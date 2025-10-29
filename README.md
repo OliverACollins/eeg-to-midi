@@ -1,5 +1,5 @@
 # EEG-to-MIDI
-My attempt at creating an EEG-MIDI interface, whereby a participant's live EEG signals would modulate the qualities of music.
+My attempt at creating an EEG-MIDI interface, whereby a participant's live EEG signals would modulate the qualities of music in Ableton Live.
 
 ## Proposed Setup
 1. Use OpenMuse to stream Muse S Athena EEG signals
