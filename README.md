@@ -31,6 +31,10 @@ My aim is to create two functional bridge scripts for both (1) live EEG-to-MIDI 
 4. Send the information from loopMIDI into Ableton Live
 5. Once the output is in Ableton Live, parameters to be modulated by the EEG signal can be mapped
 
+### Roadmap
+- [x] Create bridge script that runs using one electrode
+- [ ] Create bridge script that runs using more than one electrode
+
 
 ## Usage: Live EEG-to-MIDI
 
@@ -42,3 +46,5 @@ My aim is to create two functional bridge scripts for both (1) live EEG-to-MIDI 
 ```python
 CSV_FILE = "cleaned_eeg.csv"
 ```
+
+### Specifying electrode
