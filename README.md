@@ -12,9 +12,8 @@ My aim is to create functional bridge scripts for both (1) live EEG-to-MIDI conv
 ### Software
 - VScode (with Python and Jupyter extensions)
 - Python
-- Ableton Live
 - [loopMIDI](https://www.tobias-erichsen.de/software/loopmidi.html)
-
+- Ableton Live
 
 ## Proposed Setup: Live EEG-to-MIDI
 1. Use [OpenMuse](https://github.com/DominiqueMakowski/OpenMuse) to stream Muse S Athena EEG signals
@@ -51,8 +50,16 @@ My aim is to create functional bridge scripts for both (1) live EEG-to-MIDI conv
 CSV_FILE = "cleaned_eeg.csv"
 ```
 
-### Specifying electrode
+### Specifying electrode channel
+Using the Muse S Athena, four electrodes can be specified (AF7, AF8, TP9, TP10):
+```python
+CHANNEL = "AF7"
+```
 
+### Change notes per second
+```python
+WINDOW_SEC = 0.25
+```
 
 
 
@@ -62,3 +69,5 @@ CSV_FILE = "cleaned_eeg.csv"
 - EEG signals converted to signal filtering (low-pass/high-pass, depending on signal frequency) for live music
 - Create a live EEG-to-MIDI paradigm where an increasing amount of gamma/beta waves leads to an intensifying synth sound (e.g., more concentration = more pressure)
 - Create a neurofeedback paradigm for meditation/relaxation (e.g., increasing amount of alpha waves = more relaxing music. Could subject people to high-concentration tasks before this (leading to beta waves) and see the increasing presence of alpha waves from relaxation task)
+
+Could do all this for ECG too!
