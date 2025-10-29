@@ -3,7 +3,6 @@ My attempt at creating an EEG-MIDI interface, whereby a participant's EEG signal
 
 My aim is to create two functional bridge scripts for both (1) live EEG-to-MIDI conversion and (2) EEG-to-MIDI conversion for pre-recorded EEG data.
 
-<br>
 
 ## Requirements
 ### Hardware
@@ -16,7 +15,6 @@ My aim is to create two functional bridge scripts for both (1) live EEG-to-MIDI 
 - Ableton Live
 - [loopMIDI](https://www.tobias-erichsen.de/software/loopmidi.html)
 
-<br>
 
 ## Proposed Setup: Live EEG-to-MIDI
 1. Use [OpenMuse](https://github.com/DominiqueMakowski/OpenMuse) to stream Muse S Athena EEG signals
@@ -25,7 +23,6 @@ My aim is to create two functional bridge scripts for both (1) live EEG-to-MIDI 
 4. Send the information from loopMIDI into Ableton Live
 5. Once the output is in Ableton Live, parameters to be modulated by the EEG signal can be mapped
 
-<br>
 
 ## Proposed Setup: Pre-recorded EEG-to-MIDI
 1. Locate .csv file containing EEG data
@@ -34,13 +31,11 @@ My aim is to create two functional bridge scripts for both (1) live EEG-to-MIDI 
 4. Send the information from loopMIDI into Ableton Live
 5. Once the output is in Ableton Live, parameters to be modulated by the EEG signal can be mapped
 
-<br>
 
 ## Usage: Live EEG-to-MIDI
 
 (TBC)
 
-<br>
 
 ## Usage: Pre-recorded EEG-to-MIDI
 
