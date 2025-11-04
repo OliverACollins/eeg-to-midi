@@ -70,4 +70,4 @@ WINDOW_SEC = 0.25
 - Create a live EEG-to-MIDI paradigm where an increasing amount of gamma/beta waves leads to an intensifying synth sound (e.g., more concentration = more pressure)
 - Create a neurofeedback paradigm for meditation/relaxation (e.g., increasing amount of alpha waves = more relaxing music. Could subject people to high-concentration tasks before this (leading to beta waves) and see the increasing presence of alpha waves from relaxation task)
 
-Could do all this for ECG too!
+Could do all this for [ECG](https://github.com/OliverACollins/ecg-to-midi) too!
