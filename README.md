@@ -1,4 +1,4 @@
-# EEG-to-music
+# EEG-to-Music
 My attempt at creating an EEG-music interface, whereby a participant's EEG signals would create/modulate music in Ableton Live.
 
 My aim is to create functional bridge scripts for both (1) EEG-to-MIDI and EEG-to-guitar conversion for **live** EEG data and (2) EEG-to-MIDI and EEG-to-guitar conversion for **pre-recorded** EEG data.
